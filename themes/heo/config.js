@@ -21,7 +21,6 @@ const CONFIG = {
   HEO_HERO_TITLE_1: '分享出海',
   HEO_HERO_TITLE_2: '与思维认知',
   HEO_HERO_TITLE_3: 'lnk.bio/jaylenng',
-  HEO_HERO_TITLE_4: '新版上线',
   HEO_HERO_TITLE_LINK: 'https://lnk.bio/jaylenng',
   // 英雄区遮罩文字
   HEO_HERO_COVER_TITLE: '随便逛逛',
@@ -115,8 +114,8 @@ const CONFIG = {
   ],
 
   HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
-  HEO_SOCIAL_CARD_TITLE_3: '点击关注我',
-  HEO_SOCIAL_CARD_URL: 'https://x.com/jaylenng0788',
+  HEO_SOCIAL_CARD_TITLE_3: '点击关注我的社媒获得最新动态',
+  HEO_SOCIAL_CARD_URL: 'https://lnk.bio/jaylenng',
 
   // 底部统计面板文案
   HEO_SITE_TIME_TITLE: '建站天数:',
