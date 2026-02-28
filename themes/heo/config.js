@@ -51,7 +51,6 @@ const CONFIG = {
   HEO_INFO_CARD_ICON1: 'fas fa-user',
   HEO_INFO_CARD_ICON2: 'fab fa-github',
   HEO_INFO_CARD_URL3: 'https://lnk.bio/jaylenng',
-  HEO_INFO_CARD_TEXT3: '了解更多',
 
   // 用户技能图标
   HEO_GROUP_ICONS: [
@@ -118,7 +117,6 @@ const CONFIG = {
   HEO_SOCIAL_CARD_URL: 'https://lnk.bio/jaylenng',
 
   // 底部统计面板文案
-  HEO_SITE_TIME_TITLE: '建站天数:',
   HEO_SITE_VISIT_TITLE: '访问量:',
   HEO_SITE_VISITOR_TITLE: '访客数:',
 
