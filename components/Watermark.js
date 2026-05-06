@@ -41,11 +41,18 @@ export default function Watermark() {
       }
     }
     document.addEventListener('copy', handleCopy)
+    const handleContextMenu = (e) => {
+  if (e.target.tagName === 'IMG') {
+    e.preventDefault()
+  }
+}
+document.addEventListener('contextmenu', handleContextMenu)
 
     return () => {
       document.getElementById('__watermark__')?.remove()
       observer.disconnect()
       document.removeEventListener('copy', handleCopy)
+      document.removeEventListener('contextmenu', handleContextMenu)
     }
   }, [])
 
