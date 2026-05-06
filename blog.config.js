@@ -16,7 +16,7 @@ const BLOG = {
   APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6], // 夜间模式起至时间，false时关闭根据时间自动切换夜间模式
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '不惑X', // 您的昵称 例如 tangly1024
-  BIO: process.env.NEXT_PUBLIC_BIO || '从土木到外贸 SOHO | 数字游民实战中 💳 专注跨境支付： 美卡/ITIN/加密货币链路闭环 🤖 AI + 联盟营销： 探索 AI 赋能跨境业务新玩法 📱 全球网络： 各国 eSIM/社媒前沿玩法/工具控 ✍️ 持续输出硬核教程，陪你打破信息差，一起出海搞钱。, // 作者简介
+  BIO: process.env.NEXT_PUBLIC_BIO || '从土木到外贸 SOHO | 数字游民实战中 💳 专注跨境支付： 美卡/ITIN/加密货币链路闭环 🤖 AI + 联盟营销： 探索 AI 赋能跨境业务新玩法 📱 全球网络： 各国 eSIM/社媒前沿玩法/工具控 ✍️ 持续输出硬核教程，陪你打破信息差，一起出海搞钱。',
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://x.com/jaylenngx', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '不惑X, 博客', // 网站关键词 英文逗号隔开
   BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || '/favicon.ico', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
