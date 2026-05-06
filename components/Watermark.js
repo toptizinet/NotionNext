@@ -13,7 +13,7 @@ export default function Watermark() {
     ctx.translate(160, 90)
     ctx.rotate(-22 * Math.PI / 180)
     ctx.font = '14px Arial'
-    ctx.fillStyle = 'rgba(0, 0, 0, 0.07)'
+    ctx.fillStyle = 'rgba(0, 0, 0, 0.15)'
     ctx.textAlign = 'center'
     ctx.fillText(水印文字, 0, 0)
 
